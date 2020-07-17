@@ -1,0 +1,48 @@
+from graphics import *
+
+
+def main():
+    win = GraphWin()
+    # a)
+    myPoint = Point(130, 130)
+    myPoint.draw(win)
+    # b)
+    c = Circle(Point(30, 40), 25)
+    c.setFill("blue")
+    c.setOutline("red")
+    c.draw(win)
+    # c)
+    r = Rectangle(Point(20, 20), Point(40, 40))
+    r.setFill(color_rgb(0, 255, 150))
+    r.setWidth(3)
+    r.draw(win)
+    # d)
+    l = Line(Point(100, 100), Point(100, 200))
+    l.setOutline("red4")
+    l.setArrow("first")
+    l.draw(win)
+    # e)
+    o = Oval(Point(50, 50), Point(60, 100))
+    o.draw(win)
+    # f)
+    shape = Polygon(Point(5, 5), Point(10, 10), Point(5, 10), Point(10, 5))
+    shape.setFill("orange")
+    shape.draw(win)
+    # g) 1)
+    t = Text(Point(100, 100), "Hello World!")
+   # t.setFace("courier")
+    t.setSize(16)
+    t.setStyle("italic")
+    t.draw(win)
+    # g) 2)
+    tr = Text(Point(100, 120), "Hello World!")
+    tr.setFace("courier")
+    tr.setSize(16)
+    tr.setStyle("italic")
+    tr.draw(win)
+
+    # Wait for another click to exit
+    win.getMouse()
+
+
+main()

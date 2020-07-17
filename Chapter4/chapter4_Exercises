@@ -1,0 +1,59 @@
+True/False
+1. False - Ok
+2. True -  Ok
+3. True -  Ok
+4. True -  Not Ok - Understood.
+5. True -  Ok
+6. True -  Not Ok - Understood.
+7. True -  Ok
+8. False - Ok. technically it is clone
+9. False - Ok
+10. False- Ok
+
+Multiple choice
+1. d. - Ok
+2. b. - Ok
+3. d. - Ok
+4. c. - Ok
+5. d. - Ok
+6. d. - Ok
+7. d. - Ok
+8. b. - Ok
+9. a. - Ok
+10. b. - Ok
+
+Discussion
+# 1. Pick an example of an interesting real-world object and describe it as a programming object by listing its
+#     data (attributes, what it "knows") and its methods (behaviors, what it can "do").
+"Monitor" Data attributes: diagonal size, monitor color, radio frequency rate, VGA, price, other
+Methods: connect to laptop, display signal from the laptop, change color.
+
+#  2. Describe in your own words the object produced by each of the following operations from the graphics module.
+#     Be as precise as you can. Be sure to mention such things as the size, position, and appearance of the various
+#     objects. You may include a sketch if that helps.
+#
+#     a) Point(130, 130)
+#        Constructs a point at x coordinate 130 and y coordinate 130, with 0,0 being located at upper left hand corner.
+#
+#     b) c = Circle(Point(30,40), 25)
+#        c.setFill("blue")
+#        c.setOutline("red")
+#
+#     c) r = Rectangle(Point(20,20), Point(40,40))
+#        r.setFill(color_rgb(0,255,150)
+#        r.setWidth(3)
+#
+#     d) l = Line(Point(100,100), Point(100,200))
+#        l.setOutline("red4")
+#        l.setArrow("first")
+
+#     e) Oval(Point(50,50), Point(60,100))
+
+#     f) shape = Polygon(Point(5,5), Point(10,10), Point(5,10), Point(10,5))
+#        shape.setFill("orange")
+
+#     g) t = Text(Point(100,100), "Hello World!")
+#        t.setFace("courier")
+#        t.setSize(16)
+#        t.setStyle("italic")
+

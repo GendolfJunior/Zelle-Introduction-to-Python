@@ -1,0 +1,4 @@
+bold: article\
+underlined: wrong word
+italics: something is wrong
+yellow: not connected to the essay
