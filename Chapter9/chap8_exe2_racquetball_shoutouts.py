@@ -1,4 +1,4 @@
-# Revise the racquetball simulation to take shutouts into account. Your updated
+# 2. Revise the racquetball simulation to take shutouts into account. Your updated
 # version should report for both players the number of wins, percentage
 # of wins, number of shutouts, and percentage of wins that are shutouts.
 

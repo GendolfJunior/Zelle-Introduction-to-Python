@@ -1,12 +1,9 @@
-# 1. Revise the racquetball simulation so that it computes the results for best
-# of n game matches. First service alternates, so player A serves first in the
-# odd games of the match, and player B serves first in the even games.
+# 3. Design and implement a simulation of the game of volleyball. Normal
+# volleyball is played like volleyball in that a team can only score points
+# when it is serving. Games are played to 15, but must be won by at least
+# two points.
 
-# rball2.py
-
-# my implementation is a bit different because I didn't understood the ask
-
-from random import *
+from random import random
 
 
 def main():
@@ -17,23 +14,23 @@ def main():
 
 
 def printlntro():
-    print("This program simulates a game of racquetball between two")
-    print('players called "A" and "B". The ability of each player is')
+    print("This program simulates a game of volleyball between two")
+    print('Teams called "A" and "B". The ability of each team is')
     print("indicated by a probability (a number between 0 and 1) that")
-    print("the player wins the point when serving. Player A always")
+    print("the team wins the point when serving. team A always")
     print("has the first serve.")
 
 
 def getlnputs():
     # Returns the three simulation parameters
-    a = float(input("What is the prob. player A wins a serve? "))
-    b = float(input("What is the prob. player B wins a serve? "))
+    a = float(input("What is the prob. team A wins a serve? "))
+    b = float(input("What is the prob. team B wins a serve? "))
     n = int(input("How many games to simulate? "))
     return a, b, n
 
 
 def simNGames(n, probA, probB):
-    # Simulates n games of racquetball between players whose
+    # Simulates n games of volleyball between teams whose
     # abilities are represented by the probability of winning a serve.
     # Returns number of wins for A and B
     winsA = winsB = 0
@@ -47,10 +44,10 @@ def simNGames(n, probA, probB):
 
 
 def simOneGame(probA, probB):
-    # Simulates a single game or racquetball between players whose
+    # Simulates a single game or volleyball between teams whose
     # abilities are represented by the probability of winning a serve.
     # Returns final scores for A and B
-    serving = servings()
+    serving = "A"
     scoreA = 0
     scoreB = 0
     while not gameOver(scoreA, scoreB):
@@ -68,24 +65,13 @@ def simOneGame(probA, probB):
 
 
 def gameOver(a, b):
-    # a and b represent scores for a racquetball game
+    # a and b represent scores for a volleyball game
     # Returns True if the game is over, False otherwise.
-    return a == 15 or b == 15
-
-
-def servings():
-    # this function generates a random number in the range from 1 to 10 inclusively. If the number is even serves player B,
-    # otherwise serves player A
-    order = randrange(1, 11)
-    if (order % 2 != 0):
-        serving = 'A'
-    else:
-        serving = 'B'
-    return serving
+    return (a > 15 or b > 15) and ((a - b >= 2) or (b - a >= 2))
 
 
 def printSummary(winsA, winsB):
-    # Prints a summary of wins for each player.
+    # Prints a summary of wins for each team.
     n = winsA + winsB
     print("\nGames simulated: ", n)
     print("Wins for A: {0} ({1: 0.1%})".format(winsA, winsA / n))
