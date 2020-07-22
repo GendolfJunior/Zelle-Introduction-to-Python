@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter7/chapter7_exe12_validate_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/cball3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/projectile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/students" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/studentv1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,16 +42,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter8_Loop_Structures_and_Booleans" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter9" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter6" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter4" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter8_Loop_Structures_and_Booleans" />
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter6" />
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter10_defining_classes" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter8_Loop_Structures_and_Booleans" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter9" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.c07ex12">
+  <component name="RunManager" selected="Python.studentv1">
     <configuration name="c07ex11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,28 +104,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter7/c07ex12.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chap8_exe5_volleyball_rally_vs_regular_danyoungmusic93" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Zelle_Python_Intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter9/chap8_exe5_volleyball_rally_vs_regular_danyoungmusic93.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,13 +156,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="studentv1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Zelle_Python_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10_defining_classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10_defining_classes/studentv1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.studentv1" />
         <item itemvalue="Python.c07ex12" />
         <item itemvalue="Python.c07ex11" />
         <item itemvalue="Python.chapter7_exe12_validate_date" />
         <item itemvalue="Python.chapter7_exe11_leap_year" />
-        <item itemvalue="Python.chap8_exe5_volleyball_rally_vs_regular_danyoungmusic93" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +245,8 @@
       <workItem from="1594920353126" duration="23000" />
       <workItem from="1594930365068" duration="6569000" />
       <workItem from="1594977745960" duration="14904000" />
-      <workItem from="1595064051058" duration="11902000" />
+      <workItem from="1595064051058" duration="12697000" />
+      <workItem from="1595357148620" duration="9914000" />
     </task>
     <task id="LOCAL-00001" summary="completed new exercises">
       <created>1595065489998</created>
@@ -250,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595065489999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed new exercises">
+      <created>1595099234817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595099234817</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,6 +454,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter2_calculate_fahrenheit.coverage" NAME="chapter2_calculate_fahrenheit Coverage Results" MODIFIED="1587916152954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap8_exe7_Goldbach_conjecture.coverage" NAME="chap8_exe7_Goldbach_conjecture Coverage Results" MODIFIED="1594745051481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap7_exe5_BMI.coverage" NAME="chap7_exe5_BMI Coverage Results" MODIFIED="1593896655714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$studentv1.coverage" NAME="studentv1 Coverage Results" MODIFIED="1595367269993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c08ex02.coverage" NAME="c08ex02 Coverage Results" MODIFIED="1594720279794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise2_book_solution.coverage" NAME="chapter4_exercise2_book_solution Coverage Results" MODIFIED="1589052764500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex08.coverage" NAME="c05ex08 Coverage Results" MODIFIED="1591451291551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
