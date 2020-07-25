@@ -5,7 +5,7 @@ Provides a simple class for modeling the flight of projectiles."""
 
 from math import pi, sin, cos
 
-from button import *
+from .button import *
 from graphics import *
 
 
@@ -41,7 +41,7 @@ class Projectile:
 
 
 class ShotTracker:
-    def __index__(self, win, angle, velocity, height):
+    def __init__(self, win, angle, velocity, height):
         """win is the GraphWin to display the shot . angle, velocity, and height are initial projectile parameters."""
         self.proj = Projectile(angle, velocity, height)
         self.marker = Circle(Point(0, height), 3)
