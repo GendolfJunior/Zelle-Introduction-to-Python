@@ -33,11 +33,11 @@ def getInputs():
 
 
 def main():
-    angle, vel, hO, time = getlnputs()
+    angle, vel, hO, time = getInputs()
     cball = Projectile(angle, vel, hO)
     while cball.getY() >= 0:
         cball.update(time)
-    print("\nDistance traveled: {0: 0 .if} meters.".format(cball.getXO))
+    print("\nDistance traveled: {0:0.1f} meters.".format(cball.getX()))
 
 
 if __name__ == '__main__':

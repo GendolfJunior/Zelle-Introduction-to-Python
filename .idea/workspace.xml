@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/cball3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/projectile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/students" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/studentv1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/Chapter10_review_questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/cball4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/dieview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/discuss_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/roller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter10_defining_classes/cball3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10_defining_classes/cball3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter10_defining_classes/projectile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10_defining_classes/projectile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_002.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_005.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_006.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_007.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_008.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_009.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_010.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_011.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_012.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/Exercises_Ch_013.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PPaItCS_3e_solutions-master/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +87,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.studentv1">
-    <configuration name="c07ex11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.animation">
+    <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,12 +96,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10_defining_classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter7/c07ex11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10_defining_classes/animation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="c07ex12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cball4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,12 +118,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10_defining_classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter7/c07ex12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10_defining_classes/cball4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chapter7_exe11_leap_year" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="discuss_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,12 +140,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10_defining_classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter7/chapter7_exe11_leap_year.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10_defining_classes/discuss_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chapter7_exe12_validate_date" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="roller" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,12 +162,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10_defining_classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter7/chapter7_exe12_validate_date.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10_defining_classes/roller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.animation" />
+        <item itemvalue="Python.discuss_3" />
+        <item itemvalue="Python.roller" />
+        <item itemvalue="Python.cball4" />
         <item itemvalue="Python.studentv1" />
-        <item itemvalue="Python.c07ex12" />
-        <item itemvalue="Python.c07ex11" />
-        <item itemvalue="Python.chapter7_exe12_validate_date" />
-        <item itemvalue="Python.chapter7_exe11_leap_year" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +266,10 @@
       <workItem from="1594930365068" duration="6569000" />
       <workItem from="1594977745960" duration="14904000" />
       <workItem from="1595064051058" duration="12697000" />
-      <workItem from="1595357148620" duration="9914000" />
+      <workItem from="1595357148620" duration="15752000" />
+      <workItem from="1595526172577" duration="600000" />
+      <workItem from="1595539638199" duration="2101000" />
+      <workItem from="1595669865221" duration="12497000" />
     </task>
     <task id="LOCAL-00001" summary="completed new exercises">
       <created>1595065489998</created>
@@ -262,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595099234817</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed new exercises">
+      <created>1595439320883</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595439320883</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +321,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$happy2_write_to_file.coverage" NAME="happy2_write_to_file Coverage Results" MODIFIED="1589748911081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$sumdiff.coverage" NAME="sumdiff Coverage Results" MODIFIED="1589749923779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter7_exe11_leap_year.coverage" NAME="chapter7_exe11_leap_year Coverage Results" MODIFIED="1595065402218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$animation.coverage" NAME="animation Coverage Results" MODIFIED="1595693960637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$average3.coverage" NAME="average3 Coverage Results" MODIFIED="1594073337547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex10.coverage" NAME="c05ex10 Coverage Results" MODIFIED="1590610811518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise10.coverage" NAME="chapter4_exercise10 Coverage Results" MODIFIED="1589974319473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
@@ -377,6 +408,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap8_exe5_volleyball_rally_vs_regular.coverage" NAME="chap8_exe5_volleyball_rally_vs_regular Coverage Results" MODIFIED="1595024978658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter9" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c03exe05.coverage" NAME="c03exe05 Coverage Results" MODIFIED="1588444991473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter6_exe16_image_face_hide.coverage" NAME="chapter6_exe16_image_face_hide Coverage Results" MODIFIED="1593275369002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$roller.coverage" NAME="roller Coverage Results" MODIFIED="1595453154856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise4.coverage" NAME="chapter5_exercise4 Coverage Results" MODIFIED="1589575680432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise7.coverage" NAME="chapter3_exercise7 Coverage Results" MODIFIED="1588495669337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$click.coverage" NAME="click Coverage Results" MODIFIED="1588794137014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
@@ -458,11 +490,13 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c08ex02.coverage" NAME="c08ex02 Coverage Results" MODIFIED="1594720279794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise2_book_solution.coverage" NAME="chapter4_exercise2_book_solution Coverage Results" MODIFIED="1589052764500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex08.coverage" NAME="c05ex08 Coverage Results" MODIFIED="1591451291551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$cball4.coverage" NAME="cball4 Coverage Results" MODIFIED="1595439923183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise12_improved_future_value.coverage" NAME="chapter5_exercise12_improved_future_value Coverage Results" MODIFIED="1591390992312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap7_exe3_graded_100_scale_professor.coverage" NAME="chap7_exe3_graded_100_scale_professor Coverage Results" MODIFIED="1593895275666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$futval_graph3.coverage" NAME="futval_graph3 Coverage Results" MODIFIED="1589646382880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise5.coverage" NAME="chapter3_exercise5 Coverage Results" MODIFIED="1588444980989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise10.coverage" NAME="chapter5_exercise10 Coverage Results" MODIFIED="1590610617564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$discuss_3.coverage" NAME="discuss_3 Coverage Results" MODIFIED="1595678247647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise13.coverage" NAME="chapter3_exercise13 Coverage Results" MODIFIED="1588506835859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$convert_gui_pyw.coverage" NAME="convert_gui.pyw Coverage Results" MODIFIED="1589407198769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$discussion_exe_3d.coverage" NAME="discussion_exe_3d Coverage Results" MODIFIED="1594657662110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
