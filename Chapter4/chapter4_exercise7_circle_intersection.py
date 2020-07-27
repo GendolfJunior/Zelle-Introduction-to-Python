@@ -33,29 +33,34 @@ def main():
     circle.draw(win)
 
     # calc horizontal line x coordinates
-    x1 = sqrt(r ** 2 - y ** 2)
-    x2 = -sqrt(r ** 2 - y ** 2)
-    print(str(x1), str(x2))
 
-    # construct points
-    point1 = Point(x1, y)
-    point1.setFill("red")
-    point1.draw(win)
-    point2 = Point(x2, y)
-    point2.setFill("red")
-    point2.draw(win)
+    if abs(y) <= r:
+        x1 = sqrt(r ** 2 - y ** 2)
+        x2 = -sqrt(r ** 2 - y ** 2)
+        print(str(x1), str(x2))
 
-    # draw horizontal line
-    horizontal_line = Line(Point(-10, y), Point(10, y))
-    horizontal_line.draw(win)
+        # construct points
+        point1 = Point(x1, y)
+        point1.setFill("red")
+        point1.draw(win)
+        point2 = Point(x2, y)
+        point2.setFill("red")
+        point2.draw(win)
 
-    # draw circles as bog points
-    point1_circle = Circle(point1, 0.1)
-    point1_circle.setFill("red")
-    point1_circle.draw(win)
-    point2_circle = Circle(point2, 0.1)
-    point2_circle.setFill("red")
-    point2_circle.draw(win)
+        # draw horizontal line
+        horizontal_line = Line(Point(-10, y), Point(10, y))
+        horizontal_line.draw(win)
+
+        # draw circles as bog points
+        point1_circle = Circle(point1, 0.1)
+        point1_circle.setFill("red")
+        point1_circle.draw(win)
+        point2_circle = Circle(point2, 0.1)
+        point2_circle.setFill("red")
+        point2_circle.draw(win)
+
+    else:
+        print("The line doesn't intersect")
 
     win.getMouse()
     win.close()

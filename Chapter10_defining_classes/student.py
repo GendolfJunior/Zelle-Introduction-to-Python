@@ -19,7 +19,6 @@ class Student:
     def gpa(self):
         return self.qpoints / self.hours
 
-
 # An Algorithm
 # Get the file name from the user
 # Open the file for reading

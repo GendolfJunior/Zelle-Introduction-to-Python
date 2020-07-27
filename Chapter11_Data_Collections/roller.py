@@ -5,7 +5,7 @@
 from random import randrange
 
 from Chapter10_defining_classes.button import Button
-from Chapter10_defining_classes.dieview import DieView
+from Chapter11_Data_Collections.dieview2 import DieView
 from graphics import GraphWin, Point
 
 

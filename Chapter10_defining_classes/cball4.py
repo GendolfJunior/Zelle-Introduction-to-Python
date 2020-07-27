@@ -1,6 +1,6 @@
 # cball4.py
 
-from projectile import Projectile
+from Chapter10_defining_classes.projectile import *
 
 
 def getInputs():
