@@ -1,8 +1,9 @@
 # calc.pyw -- A four function calculator using Python arithmetic
 #   Illustrates use of objects and lists to build a simple GUI
 
-from button import Button
 from graphics import *
+
+from Chapter10_defining_classes.button import Button
 
 
 class Calculator:

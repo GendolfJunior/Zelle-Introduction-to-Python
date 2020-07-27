@@ -1,4 +1,4 @@
-# file: animation.py
+# file: animation2.py
 
 
 from Chapter10_defining_classes.projectile import *
