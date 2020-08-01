@@ -48,11 +48,6 @@ def main():
             get_n = Entry(Point(90, 50), 5)
             get_n.setText("0")
             get_n.draw(win)
-            # convert inputs
-            probA = float(get_probA.getText())
-            probB = float(get_probB.getText())
-            n = int(get_n.getText())
-            print(probA, probB, n)
             click = win.getMouse()
 
             # remove text input labels
@@ -61,6 +56,12 @@ def main():
             textN.undraw()
 
             if ok.clicked(click):
+                # convert inputs
+                probA = float(get_probA.getText())
+                probB = float(get_probB.getText())
+                n = int(get_n.getText())
+                print(probA, probB, n)
+
                 winsA, winsB = simNGames(n, probA, probB)
                 printSummary(winsA, winsB)
             quitButton.activate()
