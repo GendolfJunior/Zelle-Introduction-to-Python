@@ -4,6 +4,12 @@
 # in the case of a loss, which was the correct button. Your program should be entirely graphical; that is, all prompts and messages should be displayed
 # in the graphics window.
 
+# 4. Extend the program from the previous problem by allowing the player to
+# play multiple rounds and displaying the number of wins and losses. Add a
+# "Quit" button for ending the game.
+
+# I accidentally straight away have implemented exercise #4 while doing #3
+
 from random import *
 
 from Chapter10_defining_classes.button import *
@@ -29,7 +35,7 @@ class Door:
         return self.guess
 
     def interact(self):
-        """ wait for user to click Quit or Fire button
+        """ wait for user to click Quit or one of 3 buttons
         Returns a string indicating which button was clicked """
 
         while True:
@@ -48,6 +54,7 @@ class Door:
         self.win.close()
 
     def dialog(self, text, answer):
+        """pop-up window with a result. Click Ok to close it """
         self.dial = GraphWin("Answer", 210, 210)
         self.dial.setCoords(0, 0, 100, 100)
         Text(Point(55, 70), text).draw(self.dial)
@@ -63,7 +70,6 @@ def main():
     while True:
         simulate = Door()
         door_guessed = simulate.assign_guess()
-        print(door_guessed)
         choice = simulate.interact()
         if choice == "Quit":  # loop exit
             break
