@@ -1,9 +1,9 @@
-# dieview.py
-#     A widget for displaying the value of a die
+# c10ex08.py
+#   Dice roller with color changing dice.
+
 
 from graphics import *
 
-from random import *
 
 class DieView:
     """ DieView is a widget that displays a graphical representation
@@ -17,7 +17,7 @@ class DieView:
         # first defind some standard values
         self.win = win
         self.background = "white"  # color of die face
-        self.foreground = self.__setColor()  # color of the pips
+        self.foreground = "black"  # color of the pips
         self.psize = 0.1 * size  # radius of each pip
         hsize = size / 2.0  # half of size
         offset = 0.6 * hsize  # distance from center to outer pip
@@ -49,16 +49,11 @@ class DieView:
         pip.draw(self.win)
         return pip
 
-    def __setColor(self):
-        r = randint(0, 255)
-        g = randint(0, 255)
-        b = randint(0, 255)
-
-        self.foreground = color_rgb(r, g, b)
-        return self.foreground
-
     def setValue(self, value):
         """ Set this die to display value."""
+        # save value for later color changing and redraw
+        self.value = value
+
         # turn all pips off
         self.pip1.setFill(self.background)
         self.pip2.setFill(self.background)
@@ -96,3 +91,53 @@ class DieView:
             self.pip5.setFill(self.foreground)
             self.pip6.setFill(self.foreground)
             self.pip7.setFill(self.foreground)
+
+    def setColor(self, color):
+        # change the color of the pips
+        self.foreground = color
+        # redraw current value with new color
+        self.setValue(self.value)
+
+
+# Roller program
+
+from random import randrange
+from graphics import GraphWin, Point
+
+from Chapter10_defining_classes.button import Button
+
+
+def main():
+    # create the application window
+    win = GraphWin("Dice Roller")
+    win.setCoords(0, 0, 10, 10)
+    win.setBackground("green2")
+
+    # Draw the interface widgets
+    die1 = DieView(win, Point(3, 7), 2)
+    die2 = DieView(win, Point(7, 7), 2)
+    rollButton = Button(win, Point(5, 4.5), 6, 1, "Roll Dice")
+    rollButton.activate()
+    quitButton = Button(win, Point(5, 1), 2, 1, "Quit")
+
+    # Event loop
+    pt = win.getMouse()
+    while not quitButton.clicked(pt):
+        if rollButton.clicked(pt):
+            # pick a random color
+            color = color_rgb(randrange(256), randrange(256), randrange(256))
+            # set dice to have new color
+            die1.setColor(color)
+            die2.setColor(color)
+            value1 = randrange(1, 7)
+            die1.setValue(value1)
+            value2 = randrange(1, 7)
+            die2.setValue(value2)
+            quitButton.activate()
+        pt = win.getMouse()
+
+    # close up shop
+    win.close()
+
+
+main()
