@@ -1,8 +1,8 @@
 # c07ex13.py
 #    Day number calculation
 
-from Chapter7.c07ex11 import isLeap
-from Chapter7.c07ex12 import isValidDate
+from Chapter7_Decision_Structures.c07ex11 import isLeap
+from Chapter7_Decision_Structures.c07ex12 import isValidDate
 
 
 def dayNumber(month, day, year):

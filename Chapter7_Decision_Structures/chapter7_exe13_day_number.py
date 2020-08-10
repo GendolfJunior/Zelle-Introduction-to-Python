@@ -16,7 +16,7 @@
 
 # c07ex12.py
 #    Date validator
-from Chapter7.c07ex11 import isLeap
+from Chapter7_Decision_Structures.c07ex11 import isLeap
 
 DAYS_IN_MONTH = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 

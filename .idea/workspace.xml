@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/c10ex08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/cbutton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/chap10_exe10_cube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/chap10_exe9_sphere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/roller2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/sphere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/c11ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/c11ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe1_statistics_upgrade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe2_gpasort_upgraded.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe3_statistics_upgraded2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe4_statistics_with_UI(redo this spagetti).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe4_statistics_with_UI_Dany.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/gpa_(GPA).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphics.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10_defining_classes/dieview.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10_defining_classes/dieview.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11_Data_Collections/gpasort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/gpasort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter3/chapter3_exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter3/chapter3_exercise1_sphere.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +272,7 @@
       <workItem from="1596609692598" duration="8648000" />
       <workItem from="1596655791858" duration="6617000" />
       <workItem from="1596698578741" duration="13006000" />
-      <workItem from="1596809919024" duration="22126000" />
+      <workItem from="1596809919024" duration="22633000" />
     </task>
     <task id="LOCAL-00001" summary="completed new exercises">
       <created>1595065489998</created>
@@ -362,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596657187421</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="completed new exercises">
+      <created>1597064957838</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597064957838</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
