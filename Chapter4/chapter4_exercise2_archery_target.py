@@ -21,7 +21,7 @@ def main():
     win = GraphWin("Archery Target", 400, 400)
     win.setBackground("grey")
     center = Point(200, 200)
-    width = 10
+    width = 25
     circleY = Circle(center, width)
     circleY.setFill("yellow")
     circleR = Circle(center, width * 2)
