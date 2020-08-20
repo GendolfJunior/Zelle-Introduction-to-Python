@@ -12,7 +12,6 @@
 # graphics library. Display the image centered in a GraphWin that is the same
 # width and height as the image, and draw the graphics into this window.
 # You can use a screen capture utility to save the resulting images.e
-#
 
 
 from math import *
