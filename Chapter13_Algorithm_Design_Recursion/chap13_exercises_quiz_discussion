@@ -23,4 +23,8 @@ Multiple Choice
 10. c)
 
 Discussion
-1. see Excel
+1. see Excel chap13_discussion1_comparision_algs
+2.1. Always have 1 or more base cases
+2.2. Your recursion work downwards from a tree top to the root
+3. ['foo', 'ofo', 'oof', 'foo', 'ofo', 'oof']
+4.

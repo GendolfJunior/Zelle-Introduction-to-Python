@@ -9,7 +9,7 @@ def anagrams(s):
         return ans
 
 def main():
-    data = 'abc'
+    data = 'foo'
     print(anagrams(data))
 
 if __name__ == '__main__':

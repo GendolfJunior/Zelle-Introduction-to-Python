@@ -8,3 +8,31 @@ def recPower(a, n):
             return factor * factor
         else:  # n is odd
             return factor * factor * a
+
+
+import time
+
+start_time = time.time()
+
+#from tkinter.filedialog import askopenfilename
+
+def loadfile():
+    #filename = askopenfilename()
+    filename = "D:/Andriy/SelfDevelopment/Programming/Python/Zelle_Python_Intro/Chapter13_Algorithm_Design_Recursion/random_numbers.txt"
+    infile = open(filename, 'r')
+    data = []
+    for i in infile.readlines():
+        number = int(i)
+        data.append(number)
+    infile.close()
+    return data
+
+def main():
+    # data = [1, 2, 5, 1, 3]
+    x = 3
+    n = 6
+    #data = loadfile()
+    print(recPower(x, n))  # 5 multiplications (checked in debug mode)
+
+main()
+print("%s seconds" % (time.time() - start_time))

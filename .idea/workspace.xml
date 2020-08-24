@@ -2,29 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/c11ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/anagram_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/binary_search2_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/binary_search_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_discussion1_comparision_algs.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exercises_quiz_discussion" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chapter13_code/hanoi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chapter13_code/recursions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chapter13_code/searches.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chapter13_code/sorts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/dataexport_20200823T161723.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/factorial_recursive_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/fibonacci_examples_algs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/linear_search_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/random_numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/random_numbers_excel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/random_numbers_excel.txt.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/selection_sort_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/string_reversal_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter10_defining_classes/c13ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/cdieview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/dice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/dieview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/graphics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/guipoker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/objrball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/pokerapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/textpoker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/c13ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exe1_modified_fibonacchi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exe2_fibonacchi_func_call_count.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter10_defining_classes/chap10_exer1_max_height_canonball.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter10_defining_classes/chap10_exe1_max_height_canonball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/anagram_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/anagram_alg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exercises_quiz_discussion" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exercises_quiz_discussion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +63,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,19 +74,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter12_Object_Oriented_Design\chapter12_code" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter13_Algorithm_Design_Recursion" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter10_defining_classes" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter11_Data_Collections" />
+      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter8_Loop_Structures_and_Booleans" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter13_Algorithm_Design_Recursion\chapter13_code" />
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter10_defining_classes" />
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro" />
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter8_Loop_Structures_and_Booleans" />
       <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter9" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter13_Algorithm_Design_Recursion" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter10_defining_classes" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter11_Data_Collections" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter8_Loop_Structures_and_Booleans" />
-      <recent name="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter6" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,8 +101,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.searches">
-    <configuration name="anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.objrball">
+    <configuration name="c13ex01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +115,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter13_Algorithm_Design_Recursion\anagram_alg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/c13ex01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="c13ex02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter10_defining_classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter3/factorial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter10_defining_classes/c13ex02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,51 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_search_alg" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Zelle_Python_Intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/linear_search_alg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="searches" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Zelle_Python_Intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chapter13_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chapter13_code/searches.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="string_reversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chap13_exe2_fibonacchi_func_call_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,7 +159,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter13_Algorithm_Design_Recursion\string_reversal_alg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exe2_fibonacchi_func_call_count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="guipoker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Zelle_Python_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/guipoker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="objrball" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Zelle_Python_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/objrball.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.searches" />
-        <item itemvalue="Python.linear_search_alg" />
-        <item itemvalue="Python.factorial" />
-        <item itemvalue="Python.anagram" />
-        <item itemvalue="Python.string_reversal" />
+        <item itemvalue="Python.objrball" />
+        <item itemvalue="Python.guipoker" />
+        <item itemvalue="Python.chap13_exe2_fibonacchi_func_call_count" />
+        <item itemvalue="Python.c13ex02" />
+        <item itemvalue="Python.c13ex01" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +311,7 @@
       <workItem from="1598167118162" duration="1818000" />
       <workItem from="1598178618945" duration="1871000" />
       <workItem from="1598193110335" duration="11742000" />
-      <workItem from="1598212038753" duration="1510000" />
+      <workItem from="1598212038753" duration="14803000" />
     </task>
     <task id="LOCAL-00001" summary="completed new exercises">
       <created>1595065489998</created>
@@ -431,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597938152153</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="completed new exercises">
+      <created>1598270462388</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598270462388</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,11 +474,57 @@
           <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="a" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c03exe08.coverage" NAME="c03exe08 Coverage Results" MODIFIED="1588497151826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$guipoker.coverage" NAME="guipoker Coverage Results" MODIFIED="1598281353263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter7_exe15_line_segment_info.coverage" NAME="chapter7_exe15_line_segment_info Coverage Results" MODIFIED="1596303361584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$animation.coverage" NAME="animation Coverage Results" MODIFIED="1596381754373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex10.coverage" NAME="c05ex10 Coverage Results" MODIFIED="1590610811518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
@@ -492,6 +539,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$month2.coverage" NAME="month2 Coverage Results" MODIFIED="1589198385507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c09ex11.coverage" NAME="c09ex11 Coverage Results" MODIFIED="1597694534851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter9_Simulation_and_Design" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise10.coverage" NAME="chapter3_exercise10 Coverage Results" MODIFIED="1588498187953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c13ex01.coverage" NAME="c13ex01 Coverage Results" MODIFIED="1598277028186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c08ex11.coverage" NAME="c08ex11 Coverage Results" MODIFIED="1597739587153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter2_exercises7.coverage" NAME="chapter2_exercises7 Coverage Results" MODIFIED="1588276164625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$numbers2text2.coverage" NAME="numbers2text2 Coverage Results" MODIFIED="1589220523769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
@@ -512,6 +560,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap10_exe3_3_button_Monte.coverage" NAME="chap10_exe3_3_button_Monte Coverage Results" MODIFIED="1596565544949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$numbers2text.coverage" NAME="numbers2text Coverage Results" MODIFIED="1591453451687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$quadratic.coverage" NAME="quadratic Coverage Results" MODIFIED="1588338848591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$objrball.coverage" NAME="objrball Coverage Results" MODIFIED="1598281628635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c10ex03.coverage" NAME="c10ex03 Coverage Results" MODIFIED="1596390140666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise9.coverage" NAME="chapter3_exercise9 Coverage Results" MODIFIED="1588497060109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter2_exercises5.coverage" NAME="chapter2_exercises5 Coverage Results" MODIFIED="1588273675353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
@@ -521,6 +570,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$average4.coverage" NAME="average4 Coverage Results" MODIFIED="1594074852223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_graphingFutureValue2.coverage" NAME="chapter4_graphingFutureValue2 Coverage Results" MODIFIED="1596819384080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c02ex08.coverage" NAME="c02ex08 Coverage Results" MODIFIED="1588278508220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$to_power_recursive_alg.coverage" NAME="to_power_recursive_alg Coverage Results" MODIFIED="1598275583869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap8_exe3_double_investment.coverage" NAME="chap8_exe3_double_investment Coverage Results" MODIFIED="1596303866880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise11_five_click_house.coverage" NAME="chapter4_exercise11_five_click_house Coverage Results" MODIFIED="1589987535928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap10_exer1_max_height_canonball.coverage" NAME="chap10_exer1_max_height_canonball Coverage Results" MODIFIED="1595700481953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
@@ -614,6 +664,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex16.coverage" NAME="c05ex16 Coverage Results" MODIFIED="1597074678194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7_Decision_Structures" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap7_exe6_speeding_ticket.coverage" NAME="chap7_exe6_speeding_ticket Coverage Results" MODIFIED="1593897866570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chaos.coverage" NAME="chaos Coverage Results" MODIFIED="1590697647142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter1" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap13_exe2_fibonacchi_func_call_count.coverage" NAME="chap13_exe2_fibonacchi_func_call_count Coverage Results" MODIFIED="1598279682878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise16.coverage" NAME="chapter3_exercise16 Coverage Results" MODIFIED="1588707245944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$calc.coverage" NAME="calc Coverage Results" MODIFIED="1595882173790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise2.coverage" NAME="chapter4_exercise2 Coverage Results" MODIFIED="1589052948693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
@@ -626,6 +677,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c11ex02.coverage" NAME="c11ex02 Coverage Results" MODIFIED="1596811225644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise2_CS_quiz.coverage" NAME="chapter5_exercise2_CS_quiz Coverage Results" MODIFIED="1589406067752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter6_exe6_triangle.coverage" NAME="chapter6_exe6_triangle Coverage Results" MODIFIED="1593260783365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c13ex02.coverage" NAME="c13ex02 Coverage Results" MODIFIED="1598279335846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$roller2.coverage" NAME="roller2 Coverage Results" MODIFIED="1596699093611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap11_exe2_gpasort_upgraded.coverage" NAME="chap11_exe2_gpasort_upgraded Coverage Results" MODIFIED="1596749236335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap11_discuss1.coverage" NAME="chap11_discuss1 Coverage Results" MODIFIED="1595953430548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
@@ -677,6 +729,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter7_exe15_circle_intersection2.coverage" NAME="chapter7_exe15_circle_intersection2 Coverage Results" MODIFIED="1596301737730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap8_exe2_national_weather.coverage" NAME="chap8_exe2_national_weather Coverage Results" MODIFIED="1594720264457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap7_exe7_babysitter.coverage" NAME="chap7_exe7_babysitter Coverage Results" MODIFIED="1594063678302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$anagram_alg.coverage" NAME="anagram_alg Coverage Results" MODIFIED="1598271866390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap8_exe5_prime.coverage" NAME="chap8_exe5_prime Coverage Results" MODIFIED="1594745786440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Loop_Structures_and_Booleans" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise7_Ceasar_cipher.coverage" NAME="chapter5_exercise7_Ceasar_cipher Coverage Results" MODIFIED="1591469358333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise2.coverage" NAME="chapter3_exercise2 Coverage Results" MODIFIED="1592062739803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
