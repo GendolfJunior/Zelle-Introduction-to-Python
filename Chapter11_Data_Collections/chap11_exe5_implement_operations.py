@@ -26,7 +26,7 @@ def index(list, x):
     position = 0
     for i in list:
         position += 1
-        print("position is:", position)
+        # print("position is:", position)
         if i == x:
             return position
 
@@ -42,19 +42,19 @@ def sort(list):
     sorted = []
     for i in list:
         if len(sorted) == 0:
-            sorted.append(i)
+            sorted.append(i)                # add fitst element of the list
         elif i >= sorted[-1]:
-            sorted.append(i)
+            sorted.append(i)                # item is the biggest, so add this item as the last in the list
         else:
             position = -1
-            positionValue = sorted[-1]
-            while i < positionValue:
+            positionValue = sorted[-1]      # get the last value in the sorted list
+            while i < positionValue:        # loop through the sorted list comparing current value with list values
                 position = position - 1
                 if len(sorted) + position < 0:
-                    break
+                    break                       # exit if nothing left in the sorted list
                 else:
-                    positionValue = sorted[position]
-            sorted.insert(position + 1, i)
+                    positionValue = sorted[position]    # assign a new position to check against the current value
+            sorted.insert(position + 1, i)   # insert the value in the sorted list after the item smaller than the current value
     return sorted
 
 
@@ -64,8 +64,8 @@ def main():
     # print(count(data, x))
     # print(isin(data, x))
     # print(index(data, x))
-    # print(reverse(data))
-    print(sort(data))
+    print(reverse(data))
+    # print(sort(data))
 
 
 if __name__ == '__main__':
