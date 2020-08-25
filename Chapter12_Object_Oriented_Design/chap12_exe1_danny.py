@@ -51,8 +51,8 @@ class GraphicsInterface:
             if _exit.clicked(click):
                 self.win.close()
             elif play.clicked(click):
-                play.undraw()
-                _exit.undraw()
+                play.removeButton()
+                _exit.removeButton()
                 intro.undraw()
 
     def createDice(self, center, size):

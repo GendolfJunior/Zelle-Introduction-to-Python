@@ -37,6 +37,9 @@ class GraphicsInterface:
         self.createDice(Point(300, 100), 75)
         self.buttons = []
         self.addDiceButtons(Point(300, 170), 75, 30)
+        # help button
+        b = Button(self.win, Point(25, 375), 40, 30, "Help")
+        self.buttons.append(b)
         b = Button(self.win, Point(300, 230), 400, 40, "Roll Dice")
         self.buttons.append(b)
         b = Button(self.win, Point(300, 280), 150, 40, "Score")
@@ -47,6 +50,7 @@ class GraphicsInterface:
         self.money.setSize(18)
         self.money.draw(self.win)
 
+    # def splash prompts user to start the game
     def splashScreen(self, win):
         exitWindow = Button(self.win, Point(280, 300), 40, 30, "Quit")
         exitWindow.activate()
@@ -61,6 +65,29 @@ class GraphicsInterface:
                 if play.clicked(p):
                     play.removeButton()
                     exitWindow.removeButton()
+
+    # this function shows the help screen to the user
+    def helpScreen(self):
+        win2 = GraphWin("Game help", 800, 300)
+        win2.setCoords(0, 0, 100, 100)
+        win2.setBackground("grey")
+        help = 'This game of dice poker allows the user to roll for hands "(5-3)-of-a-kind",\
+        \n"Full House", "Straight", etc. Each round consists of up to three rolls. the user\n \
+        will select the appropriate dice to re-roll. If no dice are chosen, the user will be scored\
+        \n based on the initial roll.\n'
+        payouts = "{0:<100}{1:>0}\n------------------------------\
+        --------------------------------\n".format("Hands", "Pay")
+        hand_specs = [("Two Pairs", 5), ("Three of a Kind", 8), ("Full House", 12), ("Four of a Kind", 15),
+                      ("Straight (1-5 or 2-6)", 20), ("Five of a Kind", 30)]
+        for (hand, pay) in hand_specs:
+            payouts = payouts + '{0:<100} ${1:>0.2f}\n'.format(hand, pay)
+        msg = Text(Point(50, 20), help)
+        msg.setSize(11)
+        msg2 = Text(Point(50, 60), payouts)
+        msg.draw(win2)
+        msg2.draw(win2)
+        win2.getMouse()
+        win2.close()
 
 
     def createDice(self, center, size):
@@ -94,9 +121,14 @@ class GraphicsInterface:
             self.dice[i].setValue(values[i])
 
     def wantToPlay(self):
-        ans = self.choose(["Roll Dice", "Quit"])
-        self.msg.setText("")
-        return ans == "Roll Dice"
+        ans = ''
+        while ans != "Quit":
+            ans = self.choose(["Roll Dice", "Quit", "Help"])
+            self.msg.setText("")
+            if ans == "Help":
+                self.helpScreen()
+            else:
+                return ans == "Roll Dice"
 
     def close(self):
         self.win.close()
@@ -117,11 +149,13 @@ class GraphicsInterface:
                 else:  # Currently unselected, select it
                     choices.append(i)
                     self.dice[i].setColor("gray")
-            else:  # User clicked Roll or Score
+            else:  # User clicked Roll or Score or Help
                 for d in self.dice:  # Revert appearance of all dice
                     d.setColor("black")
                 if b == "Score":  # Score clicked, ignore choices
                     return []
+                if b == "Help":  # user wants to see User help
+                    return self.helpScreen()
                 elif choices != []:  # Don't accept Roll unless some
                     return choices  # dice are actually selected
 
