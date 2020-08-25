@@ -2,7 +2,7 @@
 #   Implementation of a DieView with changeable forground color
 #   Illustrates inheritance
 
-from dieview import DieView
+from Chapter12_Object_Oriented_Design.chapter12_code.dieview import DieView
 
 class ColorDieView(DieView):
 
