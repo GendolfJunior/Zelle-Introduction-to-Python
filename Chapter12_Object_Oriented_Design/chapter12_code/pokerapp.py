@@ -2,6 +2,7 @@
 
 from Chapter12_Object_Oriented_Design.chapter12_code.dice import Dice
 
+
 class PokerApp:
 
     def __init__(self, interface):
@@ -11,7 +12,7 @@ class PokerApp:
 
     def run(self):
         while self.money >= 10 and self.interface.wantToPlay():
-            self.playRound()            
+            self.playRound()
         self.interface.close()
 
     def playRound(self):
@@ -21,7 +22,7 @@ class PokerApp:
         result, score = self.dice.score()
         self.interface.showResult(result, score)
         self.money = self.money + score
-        self.interface.setMoney(self.money)        
+        self.interface.setMoney(self.money)
 
     def doRolls(self):
         self.dice.rollAll()
@@ -34,4 +35,3 @@ class PokerApp:
             self.interface.setDice(self.dice.values())
             if roll < 3:
                 toRoll = self.interface.chooseDice()
-

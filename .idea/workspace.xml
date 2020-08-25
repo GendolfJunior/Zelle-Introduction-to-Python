@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
+    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="" />
+    <list id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/roll_dice_stat.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_danny.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_danny.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/pokerapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/pokerapp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsbtTreeLayoutManager">
@@ -87,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.chap12_exe1_new_features">
+  <component name="RunManager" selected="Python.pokerapp">
     <configuration name="chap12_exe1_danny" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +130,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features.py" />
+      <option name="SCRIPT_NAME" value="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro\Chapter12_Object_Oriented_Design\chap12_exe1_new_features_roll_dice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chap13_exe2_fibonacchi_func_call_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="chap12_exe1_new_features_roll_dice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,12 +147,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/chap13_exe2_fibonacchi_func_call_count.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="objrball" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pokerapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +196,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/objrball.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/pokerapp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pokerapp" />
+        <item itemvalue="Python.chap12_exe1_new_features_roll_dice" />
         <item itemvalue="Python.chap12_exe1_new_features" />
         <item itemvalue="Python.chap12_exe1_danny" />
         <item itemvalue="Python.guipoker" />
-        <item itemvalue="Python.objrball" />
-        <item itemvalue="Python.chap13_exe2_fibonacchi_func_call_count" />
       </list>
     </recent_temporary>
   </component>
@@ -212,12 +219,13 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
+      <branch name="master" repository="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro" />
       <changelist id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="" />
       <created>1587673629806</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587673629806</updated>
+      <updated>1598361563826</updated>
       <workItem from="1587673630990" duration="2407000" />
       <workItem from="1587759874859" duration="1169000" />
       <workItem from="1587848230986" duration="19269000" />
@@ -299,7 +307,7 @@
       <workItem from="1598193110335" duration="11742000" />
       <workItem from="1598212038753" duration="20487000" />
       <workItem from="1598292924714" duration="2991000" />
-      <workItem from="1598348419741" duration="6942000" />
+      <workItem from="1598348419741" duration="12069000" />
     </task>
     <task id="LOCAL-00001" summary="completed new exercises">
       <created>1595065489998</created>
@@ -434,7 +442,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598348767459</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="completed new exercises">
+      <created>1598356439599</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598356439599</updated>
+    </task>
+    <task active="true" id="LOCAL-00021" summary="chap12_exe1_display_previous_best_results">
+      <branch name="master" repository="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro" original="true" />
+      <branch name="chap12_exe1_display_previous_best_results" repository="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro" />
+      <changelist id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="" />
+      <created>1598361533500</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598361563836</updated>
+      <workItem from="1598361564476" duration="40000" />
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,59 +496,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter6_Defining_Functions/chapter6_exe16_image_face_hide.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/to_power_recursive_alg.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="a" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c03exe08.coverage" NAME="c03exe08 Coverage Results" MODIFIED="1588497151826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
@@ -550,7 +531,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter6exe4_functions_def2.coverage" NAME="chapter6exe4_functions_def2 Coverage Results" MODIFIED="1592045112454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$animation2.coverage" NAME="animation2 Coverage Results" MODIFIED="1596372331558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$rball.coverage" NAME="rball Coverage Results" MODIFIED="1595709077829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter9" />
-    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap12_exe1_new_features.coverage" NAME="chap12_exe1_new_features Coverage Results" MODIFIED="1598356420500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap12_exe1_new_features.coverage" NAME="chap12_exe1_new_features Coverage Results" MODIFIED="1598360492563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap10_exe2_GUI.coverage" NAME="chap10_exe2_GUI Coverage Results" MODIFIED="1596301351176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$triangle_pyw.coverage" NAME="triangle.pyw Coverage Results" MODIFIED="1588970914486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap9_exe7_Craps_game.coverage" NAME="chap9_exe7_Craps_game Coverage Results" MODIFIED="1596306995428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter9_Simulation_and_Design" />
@@ -562,6 +543,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap10_exe3___exe4_3_button_Monte.coverage" NAME="chap10_exe3_&amp;_exe4_3_button_Monte Coverage Results" MODIFIED="1597782039993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap10_exe3_3_button_Monte.coverage" NAME="chap10_exe3_3_button_Monte Coverage Results" MODIFIED="1596565544949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$numbers2text.coverage" NAME="numbers2text Coverage Results" MODIFIED="1591453451687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$pokerapp.coverage" NAME="pokerapp Coverage Results" MODIFIED="1598361400288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$quadratic.coverage" NAME="quadratic Coverage Results" MODIFIED="1588338848591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$objrball.coverage" NAME="objrball Coverage Results" MODIFIED="1598281628635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c10ex03.coverage" NAME="c10ex03 Coverage Results" MODIFIED="1596390140666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_defining_classes" />
@@ -622,6 +604,7 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise3.coverage" NAME="chapter5_exercise3 Coverage Results" MODIFIED="1589572257980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex12.coverage" NAME="c05ex12 Coverage Results" MODIFIED="1594721786088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise15.coverage" NAME="chapter3_exercise15 Coverage Results" MODIFIED="1588516674401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap12_exe1_new_features_roll_dice.coverage" NAME="chap12_exe1_new_features_roll_dice Coverage Results" MODIFIED="1598361338146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter2_exercises10.coverage" NAME="chapter2_exercises10 Coverage Results" MODIFIED="1588323901171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise5_numerologists.coverage" NAME="chapter5_exercise5_numerologists Coverage Results" MODIFIED="1589742695413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise9_rectangle_info.coverage" NAME="chapter4_exercise9_rectangle_info Coverage Results" MODIFIED="1589916728469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />

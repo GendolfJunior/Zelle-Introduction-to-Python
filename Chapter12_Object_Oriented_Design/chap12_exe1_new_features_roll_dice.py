@@ -49,6 +49,7 @@ class GraphicsInterface:
         self.money = Text(Point(300, 325), "$100")
         self.money.setSize(18)
         self.money.draw(self.win)
+        self.bestResults = [0]
 
     # def splash prompts user to start the game
     def splashScreen(self, win):
@@ -89,7 +90,6 @@ class GraphicsInterface:
         win2.getMouse()
         win2.close()
 
-
     def createDice(self, center, size):
         center.move(-3 * size, 0)
         self.dice = []
@@ -112,6 +112,7 @@ class GraphicsInterface:
     def showResult(self, msg, score):
         if score > 0:
             text = "{0}! You win ${1}".format(msg, score)
+            self.updateStat(score)
         else:
             text = "You rolled {0}".format(msg)
         self.msg.setText(text)
@@ -129,6 +130,7 @@ class GraphicsInterface:
                 self.helpScreen()
             else:
                 return ans == "Roll Dice"
+        self.printResults()
 
     def close(self):
         self.win.close()
@@ -154,8 +156,6 @@ class GraphicsInterface:
                     d.setColor("black")
                 if b == "Score":  # Score clicked, ignore choices
                     return []
-                if b == "Help":  # user wants to see User help
-                    return self.helpScreen()
                 elif choices != []:  # Don't accept Roll unless some
                     return choices  # dice are actually selected
 
@@ -176,11 +176,55 @@ class GraphicsInterface:
                 if b.clicked(p):
                     return b.getLabel()  # function exit here.
 
+    def printResults(self):
+        pass
+
+    def updateStat(self, score):
+        scores = self.bestResults
+        currentBest = max(scores)
+        if currentBest <= score:
+            self.bestResults.append(score)
+            self.bestResults = self.sort(self.bestResults)
+            if len(self.bestResults) > 9:
+                self.bestResults = self.bestResults[1:]
+
+    def sort(self, list):
+        sorted = []
+        for i in list:
+            if len(sorted) == 0:
+                sorted.append(i)  # add fitst element of the list
+            elif i >= sorted[-1]:
+                sorted.append(i)  # item is the biggest, so add this item as the last in the list
+            else:
+                position = -1
+                positionValue = sorted[-1]  # get the last value in the sorted list
+                while i < positionValue:  # loop through the sorted list comparing current value with list values
+                    position = position - 1
+                    if len(sorted) + position < 0:
+                        break  # exit if nothing left in the sorted list
+                    else:
+                        positionValue = sorted[
+                            position]  # assign a new position to check against the current value
+                sorted.insert(position + 1,
+                              i)  # insert the value in the sorted list after the item smaller than the current value
+        return sorted
+
+    def getResults(self):
+        return self.bestResults
+
+def saveResults(results):
+    filename = "roll_dice_stat.txt"
+    outfile = open(filename, 'w')
+    for i in results:
+        print("{0}".format(i), file=outfile)
+    outfile.close()
 
 def main():
     inter = GraphicsInterface()
     app = PokerApp(inter)
     app.run()
+    statistics = inter.getResults()
+    saveResults(statistics)
 
 
 if __name__ == '__main__':
