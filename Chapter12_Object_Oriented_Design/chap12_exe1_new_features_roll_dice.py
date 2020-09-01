@@ -49,7 +49,7 @@ class GraphicsInterface:
         self.money = Text(Point(300, 325), "$100")
         self.money.setSize(18)
         self.money.draw(self.win)
-        self.bestResults = [0]
+        self.bestResults = []
 
     # def splash prompts user to start the game
     def splashScreen(self, win):
@@ -181,7 +181,10 @@ class GraphicsInterface:
 
     def updateStat(self, score):
         scores = self.bestResults
-        currentBest = max(scores)
+        if scores:                      # check if the list is not empty
+            currentBest = max(scores)
+        else:
+            currentBest = 0
         if currentBest <= score:
             self.bestResults.append(score)
             self.bestResults = self.sort(self.bestResults)
@@ -203,21 +206,21 @@ class GraphicsInterface:
                     if len(sorted) + position < 0:
                         break  # exit if nothing left in the sorted list
                     else:
-                        positionValue = sorted[
-                            position]  # assign a new position to check against the current value
-                sorted.insert(position + 1,
-                              i)  # insert the value in the sorted list after the item smaller than the current value
+                        positionValue = sorted[position]  # assign a new position to check against the current value
+                sorted.insert(position + 1, i)  # insert the value in the sorted list after the item smaller than the current value
         return sorted
 
     def getResults(self):
         return self.bestResults
 
 def saveResults(results):
+    username = input("What is your username?: ")
     filename = "roll_dice_stat.txt"
     outfile = open(filename, 'w')
     for i in results:
-        print("{0}".format(i), file=outfile)
+        print("{0}:{1}".format(username, i), file=outfile)
     outfile.close()
+    print("Export to file finished!")
 
 def main():
     inter = GraphicsInterface()

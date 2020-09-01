@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="" />
-    <list id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/roll_dice_stat.txt" afterDir="false" />
+    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="chap12_exe1_display_previous_best_results">
+      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/c13ex03_palindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/pokerapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/pokerapp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/roll_dice_stat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/roll_dice_stat.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +94,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pokerapp">
+  <component name="RunManager" selected="Python.chap12_exe1_new_features_roll_dice">
+    <configuration name="chap11_exe5_implement_operations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Zelle_Python_Intro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter11_Data_Collections" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="chap12_exe1_danny" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,28 +183,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guipoker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Zelle_Python_Intro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chapter12_code/guipoker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pokerapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Zelle_Python_Intro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pokerapp" />
         <item itemvalue="Python.chap12_exe1_new_features_roll_dice" />
+        <item itemvalue="Python.chap11_exe5_implement_operations" />
+        <item itemvalue="Python.pokerapp" />
         <item itemvalue="Python.chap12_exe1_new_features" />
         <item itemvalue="Python.chap12_exe1_danny" />
-        <item itemvalue="Python.guipoker" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,6 @@
   <component name="TaskManager">
     <task id="Default" summary="Default task">
       <branch name="master" repository="D:\Andriy\SelfDevelopment\Programming\Python\Zelle_Python_Intro" />
-      <changelist id="9313eef6-43d5-4566-bbde-c450fe5ea7e1" name="Default Changelist" comment="" />
       <created>1587673629806</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -458,9 +457,22 @@
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
       <updated>1598361563836</updated>
-      <workItem from="1598361564476" duration="40000" />
+      <workItem from="1598361564476" duration="348000" />
+      <workItem from="1598364785417" duration="610000" />
+      <workItem from="1598372063005" duration="615000" />
+      <workItem from="1598438671350" duration="616000" />
+      <workItem from="1598458197149" duration="3523000" />
+      <workItem from="1598526538578" duration="421000" />
+      <workItem from="1598550278779" duration="7626000" />
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="almost finished chap12_exe1">
+      <created>1598361647773</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598361647773</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,9 +502,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="completed new exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed new exercises" />
+    <MESSAGE value="almost finished chap12_exe1" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost finished chap12_exe1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,11 +614,11 @@
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise8_line_segment_information.coverage" NAME="chapter4_exercise8_line_segment_information Coverage Results" MODIFIED="1589919308953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap9_exe11_5_six_sided_dice.coverage" NAME="chap9_exe11_5_six_sided_dice Coverage Results" MODIFIED="1597694243405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter9_Simulation_and_Design" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter6_exe8_next_guess.coverage" NAME="chapter6_exe8_next_guess Coverage Results" MODIFIED="1592128444603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6" />
-    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap11_exe5_implement_operations.coverage" NAME="chap11_exe5_implement_operations Coverage Results" MODIFIED="1598111737600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap11_exe5_implement_operations.coverage" NAME="chap11_exe5_implement_operations Coverage Results" MODIFIED="1598552677179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_Data_Collections" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise3.coverage" NAME="chapter5_exercise3 Coverage Results" MODIFIED="1589572257980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$c05ex12.coverage" NAME="c05ex12 Coverage Results" MODIFIED="1594721786088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter3_exercise15.coverage" NAME="chapter3_exercise15 Coverage Results" MODIFIED="1588516674401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter3" />
-    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap12_exe1_new_features_roll_dice.coverage" NAME="chap12_exe1_new_features_roll_dice Coverage Results" MODIFIED="1598361338146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
+    <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chap12_exe1_new_features_roll_dice.coverage" NAME="chap12_exe1_new_features_roll_dice Coverage Results" MODIFIED="1598558232277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_Object_Oriented_Design" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter2_exercises10.coverage" NAME="chapter2_exercises10 Coverage Results" MODIFIED="1588323901171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Scripts" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter5_exercise5_numerologists.coverage" NAME="chapter5_exercise5_numerologists Coverage Results" MODIFIED="1589742695413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5" />
     <SUITE FILE_PATH="coverage/Zelle_Python_Intro$chapter4_exercise9_rectangle_info.coverage" NAME="chapter4_exercise9_rectangle_info Coverage Results" MODIFIED="1589916728469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter4" />

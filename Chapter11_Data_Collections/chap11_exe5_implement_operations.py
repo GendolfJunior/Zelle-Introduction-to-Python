@@ -64,8 +64,8 @@ def main():
     # print(count(data, x))
     # print(isin(data, x))
     # print(index(data, x))
-    print(reverse(data))
-    # print(sort(data))
+    # print(reverse(data))
+    print(sort(data))
 
 
 if __name__ == '__main__':
