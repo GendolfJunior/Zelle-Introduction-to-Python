@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="chap12_exe1_display_previous_best_results" />
+    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="changed names of chapter folders" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,7 +458,7 @@
       <workItem from="1598458197149" duration="3523000" />
       <workItem from="1598526538578" duration="421000" />
       <workItem from="1598550278779" duration="7626000" />
-      <workItem from="1598987650494" duration="271000" />
+      <workItem from="1598987650494" duration="522000" />
     </task>
     <task id="LOCAL-00022" summary="almost finished chap12_exe1">
       <created>1598361647773</created>
@@ -474,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598987880755</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="changed names of chapter folders">
+      <created>1598988165168</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598988165168</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +516,8 @@
     <MESSAGE value="completed new exercises" />
     <MESSAGE value="almost finished chap12_exe1" />
     <MESSAGE value="chap12_exe1_display_previous_best_results" />
-    <option name="LAST_COMMIT_MESSAGE" value="chap12_exe1_display_previous_best_results" />
+    <MESSAGE value="changed names of chapter folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed names of chapter folders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
