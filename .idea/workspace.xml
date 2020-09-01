@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="chap12_exe1_display_previous_best_results">
-      <change afterPath="$PROJECT_DIR$/Chapter13_Algorithm_Design_Recursion/c13ex03_palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_Data_Collections/chap11_exe5_implement_operations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/chap12_exe1_new_features_roll_dice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/roll_dice_stat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_Object_Oriented_Design/roll_dice_stat.txt" afterDir="false" />
-    </list>
+    <list default="true" id="5f5c2d2b-16e6-4421-9123-55a5243dd420" name="chap12_exe1_display_previous_best_results" comment="chap12_exe1_display_previous_best_results" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -464,6 +458,7 @@
       <workItem from="1598458197149" duration="3523000" />
       <workItem from="1598526538578" duration="421000" />
       <workItem from="1598550278779" duration="7626000" />
+      <workItem from="1598987650494" duration="271000" />
     </task>
     <task id="LOCAL-00022" summary="almost finished chap12_exe1">
       <created>1598361647773</created>
@@ -472,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598361647773</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="chap12_exe1_display_previous_best_results">
+      <created>1598987880755</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598987880755</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +508,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="completed new exercises" />
     <MESSAGE value="almost finished chap12_exe1" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost finished chap12_exe1" />
+    <MESSAGE value="chap12_exe1_display_previous_best_results" />
+    <option name="LAST_COMMIT_MESSAGE" value="chap12_exe1_display_previous_best_results" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
