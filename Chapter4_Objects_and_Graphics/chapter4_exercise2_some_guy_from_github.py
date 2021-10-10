@@ -16,7 +16,7 @@ def main():
     for i in range(len(color)):  # len() is used so that a target of any number of circles can be drawn
 
         aim = Circle(center, r - (r * (i / len(color))))  # len(0 is used to get the proportion of part to whole
-        print(r - (r * (i / len(color))))
+        print("i is = ", i, r - (r * (i / len(color))))
         aim.setFill(color[i])
         aim.draw(win)
     # Wait for another click to exit

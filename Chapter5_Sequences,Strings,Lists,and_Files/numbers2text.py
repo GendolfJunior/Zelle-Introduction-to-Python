@@ -12,9 +12,9 @@ def main():
     # Loop through each substring and build Unicode message
     message = " "
     for numstr in inString.split():
-       # print("the numstr is: ", numstr)
+        print("the numstr is: ", numstr)
         codeNum = int(numstr)                         # convert digits to a number
-       # print("the codenum is: ", codeNum)
+        #print("the codenum is: ", codeNum)
         message = message + chr(codeNum)              # concatentate character to message
     print("\nThe decoded message is : ", message)
 

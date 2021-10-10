@@ -58,7 +58,7 @@ def main():
     print("Point 1 coordinates: ", point1)
     print("Point 2 coordinates: ", point2)
     print("Mid Point coordinates: ", midpoint)
-    print("The length is {0} is coordinates".format(length))
+    print("The length is {0} in coordinates".format(length))
     print("The slope is {0}".format(slope))
 
 

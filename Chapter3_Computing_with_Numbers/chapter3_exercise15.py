@@ -26,7 +26,9 @@ def main():
 
     for i in range(1, n):
         sum += a / (3 + b * i) - a / (3 + b * (i + 1))
+        print("the current i is: ", i)
         print("the current sum is: ", sum)
+
 
 
 main()
